@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appzion </title>
+    <link rel="stylesheet" href="Netflix.css">
+</head>
+<body>
+    <header class="Nav-bar">
+        <div class="logo">
+            <h1><i>Appzion</i></h1>
+        </div>
+        <nav><u>Home</u></nav>
+        <nav><u>Our Developments</u></nav>
+        <nav><u>Portfolio</u></nav>
+        <nav><u>Services</u></nav>
+        <nav><u>About us</u></nav>
+    </header>
+    <div class="content">
+        <h1>Your Trusted App Development Company </h1>
+        <p>We Build Innovations; not Apps.</p>
+        <br>
+        <button><b>Get Free Consulation</b></button>
+        <div class="img">
+            <img src="https://camo.githubusercontent.com/01c83210f7feb975ea3b9a852808beb6689425add471f76f942c15875626af5d/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"> 
+        </div>
+        <h2><b>Appzion: Revolutionizing Workplace Training Through XR Solutions;</b></h2>
+        <article>Appzion, a pioneering software company based in Newport Beach, California, is at the forefront of transforming workplace training using virtual reality (VR) and augmented reality (AR) technologies. Founded in 2013, this three-person team leverages the power of XR alongside traditional platforms to create customized training solutions for businesses across various industries.
+            </i>
+        </article>
+        <hr>
+        <br>
+        <div class="development-Appzion">
+            <h2>App Development at Appzion</h2>
+            <p>Since Appzion focuses on building customized training solutions using various platforms, app development plays a central role in their services. Here's a breakdown of what it might be like working on app development at Appzion:</p>
+            <br>
+        <ul>
+            <li>Cross Platforms Apps</li>
+            <li>Android Apps</li>
+            <li>IOS Apps</li>
+        </ul>
+        <hr>
+        <br>
+        </div>
+        <div class="our-services">
+            <h2><button><b>Services We Offer:</b></button></h2>
+            <table border="30"> 
+                <tr>
+                    <td>App Development</td>
+                    <td>DevOps</td>
+                    <td>UI & UX Design</td>
+                    <td>Software Development</td>
+                    <td>AI & ML</td>
+                </tr>
+                <tr>
+                    <td><b>You'll likely be involved in building apps for multiple platforms, be it Android, iOS, or even specific platforms required for VR/AR devices. This would involve proficiency in different programming languages and tools for each platform.</b></td>
+                    <td><b>DevOps is a set of practices, tools, and a cultural philosophy that aims to improve collaboration and communication between software development (Dev) and IT operations (Ops) teams.</b></td>
+                    <td><b>UX (user experience) design is about the entire user journey, making it smooth and enjoyable.  Imagine the overall flow of a restaurant visit.
+
+                        UI (user interface) design is the look and feel, the buttons, menus, and visual elements you interact with.  Think of the interior design of the restaurant.
+                        
+                        Both UX and UI work together for a great digital product!</b></td>
+                    <td><b>Planning and Design: This involves defining the software's purpose, features, and user interface.
+                        Coding: Developers write code using programming languages to bring the design to life.
+                        Testing: The software is rigorously tested to identify and fix bugs.
+                        Deployment: The software is released to users, often in stages.
+                        Maintenance: The software is updated and improved over time to address issues and add new features.
+                        Software development can be complex and involve different methodologies and tools depending on the project's needs.</b></td>
+                    <td><b>Needs Assessment and Design: They likely consult with clients to understand their training requirements and design interactive training solutions.
+                        VR/AR App Development: Appzion builds virtual reality (VR) and augmented reality (AR) applications that provide immersive training experiences.
+                        Mobile App Development: They might develop mobile training apps for smartphones and tablets, allowing for on-the-go learning.
+                        Traditional App Development: Appzion may also create training apps for desktops or specific platforms required for the training.
+                        Learning Management System (LMS) Integration: For managing and delivering training content, they might integrate their apps with existing LMS platforms.
+                        Data Analytics and Reporting: Appzion could offer services to track user progress and measure the effectiveness of the training programs.</b></td>
+                </tr>
+            </table>
+            
+        </div>
+        <br>
+        <div class="img">
+            <img src="https://camo.githubusercontent.com/7de37139d0b4c1ce40865e799b446c0e963a3dd8fb68d239707237c40604fa3d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966">
+            <hr>
+            <br>
+        </div>
+        <form>
+            <div class="Email-signup">
+                <input type="Email" placeholder=" Email Address"  required>
+                <input type="Password" placeholder="Enter Your Password">
+                <button type="Sign Up">Sign up</button>
+            </div>
+            <hr>
+            <br>
+        </form>
+        <footer>
+            <div class="row">
+                <p>🌐   Pakistan   |   English (UK)   |  2024 Appzion, Inc.
+                </p>
+            </div>
+           </footer>
+    </div>
+</div>
+</body>
+</html>
+
+
+/** ---CSS For Appzion--- **/
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: #210949;
+}
+
+.Nav-bar{
+    background-color:#492E87;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/** Content **/
+
+.content{
+    padding: 120px 40px;
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.content button{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px  27px;
+    color: black; padding: 10px 20px;
+    font-size: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    
+}
+.content button:hover{
+    cursor: pointer;
+    background-color: #492E87;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+    
+   
+
+
+}
+
+
+.content img{
+    width: 290px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 0  900px;
+}
+
+.content  h1{
+    color: white;
+
+}
+
+.content p{
+    color: white;
+
+}
+
+.content  button{
+    border-radius: 10px;
+}
+
+.content h2{
+    color: white;   
+}
+
+.content article{
+    color: white;
+    align-items: center;
+}
+
+.development-Appzion li{
+    color: white;
+
+}
+
+.our-services{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    color: whitesmoke;
+}
+
+
+.Email-signup{
+    height: 100px;
+    max-width: 600px;
+    margin: 20px auto 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    border: 4px solid white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: white;
+
+
+
+}
+
+.Email-signup :hover{
+    background-color: white;
+}
+
+.Email-signup{
+ box-shadow:  8px;
+ cursor: pointer;
+
+}
+
+footer p{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+
+
+
+
+
+
