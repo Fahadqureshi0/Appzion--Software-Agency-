@@ -3,246 +3,784 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appzion </title>
-    <link rel="stylesheet" href="Netflix.css">
+    <title>Appzion Software Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header class="Nav-bar">
+
+    <header class="navigation-bar">
         <div class="logo">
             <h1><i>Appzion</i></h1>
         </div>
-        <nav><u>Home</u></nav>
-        <nav><u>Our Developments</u></nav>
-        <nav><u>Portfolio</u></nav>
-        <nav><u>Services</u></nav>
-        <nav><u>About us</u></nav>
+        <nav><i class="fa-sharp fa-solid fa-house"></i>
+            <b>Home</b></nav>
+        <nav><i class="fa-solid fa-bars-progress"></i> <b>Projects</b></nav>
+        <nav><i class="fa-solid fa-hand"></i> <b>Services</b></nav>
+        <nav><i class="fa-sharp fa-solid fa-tag"></i> <b>Prices</b></nav>
+        <nav><i class="fa-solid fa-link"></i> <b>Consultation</b></nav>
+        <nav><i class="fa-sharp fa-regular fa-address-card"></i> <b>About</b></nav>
+        <nav><i class="fa-solid fa-phone-volume"></i> <b>Contact</b></nav>
+        <button><h3><i>Login</i></h3></button>
     </header>
     <div class="content">
-        <h1>Your Trusted App Development Company </h1>
-        <p>We Build Innovations; not Apps.</p>
+        <h1>Appzion Builds Future; not Software.</h1>
+        <p>Appzion Builds Static OR Dynamic Softwares to Provide Industry with Valuable Softwares.</p>
         <br>
-        <button><b>Get Free Consulation</b></button>
+        <br>
+        <button><b><h3>Get Free Consulation</h3></b></button>
+    </div>
         <div class="img">
-            <img src="https://camo.githubusercontent.com/01c83210f7feb975ea3b9a852808beb6689425add471f76f942c15875626af5d/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"> 
-        </div>
-        <h2><b>Appzion: Revolutionizing Workplace Training Through XR Solutions;</b></h2>
-        <article>Appzion, a pioneering software company based in Newport Beach, California, is at the forefront of transforming workplace training using virtual reality (VR) and augmented reality (AR) technologies. Founded in 2013, this three-person team leverages the power of XR alongside traditional platforms to create customized training solutions for businesses across various industries.
-            </i>
-        </article>
-        <hr>
-        <br>
-        <div class="development-Appzion">
-            <h2>App Development at Appzion</h2>
-            <p>Since Appzion focuses on building customized training solutions using various platforms, app development plays a central role in their services. Here's a breakdown of what it might be like working on app development at Appzion:</p>
+            <img src="https://camo.githubusercontent.com/01c83210f7feb975ea3b9a852808beb6689425add471f76f942c15875626af5d/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" alt="Github" width="280px">
+         </div>
+    </div>
+    <br>
+    
+    <br>
+    <!-- Services -->
+     <section class="services">
+        <h1>Services we offer</h1>
+        <div class="services-box1">
+            <h3><u>App Development</u></h3>
             <br>
-        <ul>
-            <li>Cross Platforms Apps</li>
-            <li>Android Apps</li>
-            <li>IOS Apps</li>
-        </ul>
-        <hr>
-        <br>
+            <p><i><u>Android Development:</u> Developing applications for Android devices using Java or Kotlin with tools like Android Studio. It involves designing, coding, testing, and deploying apps to the Google Play Store, ensuring compatibility across various Android versions and devices.
+
+                <h4><u>iOS Development:</u></h4> Creating applications for Apple devices using Swift or Objective-C with Xcode. This process includes designing user interfaces, coding, testing, and deploying apps to the Apple App Store, ensuring seamless performance on iPhones and iPads.
+                
+                <h4><u>Cross-Platform Development:</u></h4> Building applications that run on multiple platforms (Android, iOS, etc.) using frameworks like React Native, Flutter, or Xamarin. This approach allows for sharing code across platforms, reducing development time and costs while maintaining a consistent user experience across different devices.</i></p>
         </div>
-        <div class="our-services">
-            <h2><button><b>Services We Offer:</b></button></h2>
-            <table border="30"> 
+        <div class="services-box2">
+            <h3><u>Web-Applications Development</u></h3>
+            <br>
+            <p><i>Web applications developed by Appzion leverage cutting-edge technologies to create dynamic and interactive experiences accessible via web browsers. These applications are designed to meet diverse client needs, offering scalability, cross-platform compatibility, and robust security features. With a focus on user-centric design and seamless functionality, Appzion's web applications empower businesses to reach their audience effectively on any device with internet connectivity. Our comprehensive development process ensures reliable performance, efficient maintenance, and continuous support to enhance client satisfaction and business success.</i></p>
+        </div>
+        <br>
+        <div class="services-box3">
+            <h3><u>Artifical Intelligence</u></h3>
+            <br>
+            <p><i>Appzion excels in Artificial Intelligence services, offering cutting-edge models, machine learning, and data science solutions. We harness advanced algorithms to drive insights, automation, and innovation, empowering businesses with predictive analytics and intelligent decision-making capabilities. Our expertise ensures scalable and impactful AI solutions tailored to optimize operations and achieve strategic objectives efficiently.</i></p>
+        </div>
+     </section>
+     <br>
+     <br>
+     <br>
+     <!--Projects-->
+     <div class="appzion-projects">
+        <h1><b>Our Projects</b></h1>
+        <br>
+        <br>
+        <div class="project-1">
+            <img src="image-removebg-preview.png" alt="IUB Portal" width="140px">
+            <h4><b>Univeristy Portal Website</b></h4>
+            <br>
+            <p><i>Appzion Builds a Web-Application that is a  University Portal that provide Students their Course Information, Attendence, and their Result.</i></p>            
+        </div>
+        <div class="project-2"> 
+            <img src="pexels-tara-winstead-8849295-removebg-preview.png" alt="AI Model" width="145px">
+            <h3><b>Appzion AI</b></h3>
+            <br>
+            <p><i>Appzion AI is a Model that Provides users with Information, like coding Helps, Composing Emails, writing Scripts, and Also Provides more Informative Source of Content-writing Tips.</i></p>
+        </div>
+        <div class="project-3">
+            <img src="5227500-removebg-preview.png" alt="Hotel Room App" width="300px">
+            <br>
+            <h3>Hotel-Room App</h3>
+            <br>
+            <p><i>Appzion Builds a Hotel Booking Room which Provides Services to Travellers to Bookm their Travel Stay-place already. </i></p>
+        </div>
+     </div>
+     <br>
+     <!--Prices-->
+     <div class="Prices-of-services">
+        <h1><u>Prices</u></h1>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <div class="prices-table">
+            <table border="5">
                 <tr>
-                    <td>App Development</td>
-                    <td>DevOps</td>
-                    <td>UI & UX Design</td>
-                    <td>Software Development</td>
-                    <td>AI & ML</td>
+                    <td><h3>Web Development</h3></td>
+                    <td>$300</td>
+                    <td>$500</td>
                 </tr>
                 <tr>
-                    <td><b>You'll likely be involved in building apps for multiple platforms, be it Android, iOS, or even specific platforms required for VR/AR devices. This would involve proficiency in different programming languages and tools for each platform.</b></td>
-                    <td><b>DevOps is a set of practices, tools, and a cultural philosophy that aims to improve collaboration and communication between software development (Dev) and IT operations (Ops) teams.</b></td>
-                    <td><b>UX (user experience) design is about the entire user journey, making it smooth and enjoyable.  Imagine the overall flow of a restaurant visit.
-
-                        UI (user interface) design is the look and feel, the buttons, menus, and visual elements you interact with.  Think of the interior design of the restaurant.
-                        
-                        Both UX and UI work together for a great digital product!</b></td>
-                    <td><b>Planning and Design: This involves defining the software's purpose, features, and user interface.
-                        Coding: Developers write code using programming languages to bring the design to life.
-                        Testing: The software is rigorously tested to identify and fix bugs.
-                        Deployment: The software is released to users, often in stages.
-                        Maintenance: The software is updated and improved over time to address issues and add new features.
-                        Software development can be complex and involve different methodologies and tools depending on the project's needs.</b></td>
-                    <td><b>Needs Assessment and Design: They likely consult with clients to understand their training requirements and design interactive training solutions.
-                        VR/AR App Development: Appzion builds virtual reality (VR) and augmented reality (AR) applications that provide immersive training experiences.
-                        Mobile App Development: They might develop mobile training apps for smartphones and tablets, allowing for on-the-go learning.
-                        Traditional App Development: Appzion may also create training apps for desktops or specific platforms required for the training.
-                        Learning Management System (LMS) Integration: For managing and delivering training content, they might integrate their apps with existing LMS platforms.
-                        Data Analytics and Reporting: Appzion could offer services to track user progress and measure the effectiveness of the training programs.</b></td>
+                    <td><h3>App Development</h3></td>
+                    <td>$1500</td>
+                    <td>$5000</td>
+                </tr>
+                <tr>
+                    <td><h3>Artifical Intelligence</h3></td>
+                    <td>$10000</td>
+                    <td>$200000</td>
                 </tr>
             </table>
-            
+        </div>
+     </div>
+     <br>
+     <!--About-->
+     <div class="about-Company">
+        <h1>About</h1>
+       <p>Appzion is a pioneering software company founded by <b>Fahad Qureshi</b> on February 17, 2024, in California, USA. We specialize in creating innovative software solutions, applications, and AI-driven technologies. Our expert team excels in developing web, desktop, and mobile applications, ensuring each product meets the highest standards of quality and functionality.</p>
+       <div class="lists">
+        <p><i>Web Development: Building responsive, user-friendly websites.</i></p>
+        <p><i>Desktop Applications: Crafting robust software to enhance productivity.</i></p>
+        <p><i>Mobile Apps: Designing intuitive apps for iOS and Android.</i></p>
+        <p><i>Artificial Intelligence: Implementing AI and machine learning to solve complex problems</i></p>
+       </div>
+       </div>
+       
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       
+
+       <!--Contact-->  <!--Footer-->
+       <footer>
+        <div class="class-footer">
+            <h1><i>Appzion</i></h1>
+            <br>
+            <br>
+            <p><b>Appzion is a pioneering software company founded by Fahad Qureshi on February 17, 2024, in California, USA. We specialize in creating innovative software solutions, applications, and AI-driven technologies. Our expert team excels in developing web, desktop, and mobile applications, ensuring each product meets the highest standards of quality and functionality.</b></p>
         </div>
         <br>
-        <div class="img">
-            <img src="https://camo.githubusercontent.com/7de37139d0b4c1ce40865e799b446c0e963a3dd8fb68d239707237c40604fa3d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966">
-            <hr>
-            <br>
+        <br>       
+        <br>
+        
+        <br>
+        <!--StakeHolders and Integrations-->
+        <div class="stakeholders-integrations">
+           <a href="https://www.microsoft.com/en-us/ai"><img src="pngimg.com - microsoft_PNG13.png" alt="Microsoft" width="100"></a>
+           <a href="https://scale.com/"><img src="idHoaCJ0wv_1720206573397-removebg-preview copy.png" alt="Scale AI" width="100"></a>
+           <a href="https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/"><img src="313717-removebg-preview.png" alt="Apple" width="110"></a>
+           <a href="https://openai.com/"><img src="1681142235openai-logo-png.png" alt="OpenAI" width="150"></a>
+           <a href="https://www.nvidia.com/en-us/ai-data-science/"><img src="60895ec7d598a5000448ea97.png" alt="Nvidia" width="140"></a>
+           <a href="https://www.tesla.com/"><img src="tesla-logo-png-2251.png" alt="Tesla" width="100"></a>
+           <a href="https://investor.fb.com/home/default.aspx"><img src="New Facebook Meta.png" alt="Meta" width="150"></a>
+           <a href="https://www.ycombinator.com/"><img src="62bc7cf3071dec17849af326.png" alt="Meta" width="170"></a>
         </div>
-        <form>
-            <div class="Email-signup">
-                <input type="Email" placeholder=" Email Address"  required>
-                <input type="Password" placeholder="Enter Your Password">
-                <button type="Sign Up">Sign up</button>
-            </div>
-            <hr>
+        
+        
+        
+        <br>
+        <br>
+        <br>        
+        <!---Footer-->
+        <div class="footer-list">
+            <ul>
+                <li><h3>PRODUCTS</h3></li>
+                <br>
+                <li>Appzion Data Engine</li>
+                <li>Appzion GenAI Platform</li>
+                <li>Appzion Donovan</li>
+            </ul>
             <br>
-        </form>
-        <footer>
-            <div class="row">
-                <p>🌐   Pakistan   |   English (UK)   |  2024 Appzion, Inc.
-                </p>
-            </div>
-           </footer>
-    </div>
-</div>
+            <ul>
+                <li><h3>COMPANY</h3></li>
+                <br>
+                <li>About</li>
+                <li>Carers</li>
+                <li>Security</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+            <br>
+            <ul>
+                <li><h3>RESOURCES</h3></li>
+                <br>
+                <li>Blog</li>
+                <li>Customers</li>
+                <li>Events</li>
+                <li>Open Datasets</li>
+                <li>Documentation</li>
+                <li>Guides</li>
+                <li>Community</li>
+                <li>AI Readiness Report 2024</li>
+            </ul>
+            <br>
+            <ul>
+                <li><h3>GUIDES</h3></li>
+                <br>
+                <li>Data Labeling</li>
+                <li>ML Model Training</li>
+                <li>Diffusion Models</li>
+                <li>Guide to AI for eCommerce</li>
+                <li>Computer Vision Applications</li>
+                <li>Large Language Models</li>
+            </ul>
+            <br>
+        <ul>
+            <li><h3>CONTACT</h3></li>
+            <br>
+            <li>Sales@appzion.com</li>
+            <li>support@Appzion.com</li>
+            <li>careers@Appzion.com</li>
+            <li>press@Appzion.com</li>
+        </ul>
+        <br>
+        <!--Social Links-->
+        
+            <a href="www.linkedin.com/in/fahad-qureshi-aa8a8727b"><h1><i class="fa-brands fa-linkedin"></h1></i></a>
+            <a href="https://x.com/FahadQures83537"><h1><i class="fa-brands fa-square-x-twitter"></h1></i></a>
+            <a href="https://www.instagram.com/fahadqureshi._?igsh=cnU1enB2N3kxMDZm"><h1><i class="fa-brands fa-square-instagram"></h1></i></a>
+        
+        </div>
+        
+        <br>
+        <!---Form--->
+        <label>
+            <form>
+                <div class="signup-Form">
+                    <input type="text" placeholder="Enter Your Email Address" name= "Email" required>
+                     <br>
+                    <input type="password" placeholder="Enter Your Password"  name="Password" required>
+                    <button>Sign up</button>   
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+        </label>
+        <hr>
+        <br>        
+        <br>
+        
+        
+        <div class="footer-again">
+            <p><span>Copyright © 2024 Appzion Inc. All rights reserved.</span></p>
+            <p>Terms of Use & Privacy Policy</p>
+        </div>
+       </footer>
 </body>
 </html>
 
 
-/** ---CSS For Appzion--- **/
+<!---- CSS--->
+
 
 *{
     padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #210949;
+    background:#210949;
 }
 
-.Nav-bar{
-    background-color:#492E87;
-    color: white;
+
+/**      Header      **/
+
+
+.navigation-bar{
+    background-color: #492E87;
     display: flex;
-    height: 70px;
     align-items: center;
-    display: flex;
     justify-content: space-evenly;
-
-}
-
-/** Content **/
-
-.content{
-    padding: 120px 40px;
-    align-items: center;
     height: 70px;
-    justify-content: space-around;
+    color: white;
+    cursor: pointer;
 }
 
-.content button{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px  27px;
-    color: black; padding: 10px 20px;
-    font-size: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
+.navigation-bar :hover{
+    background-color: green;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-
+    padding: 3px 3px;
     
 }
-.content button:hover{
+
+
+
+/**      Button      **/
+
+button{
+    background-color: green;
+    color: white;
+    border: 6px solid white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+button :hover{
     cursor: pointer;
     background-color: #492E87;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
-    
-   
-
-
+    margin: 9px 9px;
+    padding: 9px 9px;
+    transition: 0.2s;
 }
 
 
-.content img{
-    width: 290px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    padding: 0  900px;
-}
 
-.content  h1{
+
+/**      Content      **/
+
+.content h1{
+    padding: 100px 60px;
     color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
 
 }
 
 .content p{
-    color: white;
-
-}
-
-.content  button{
-    border-radius: 10px;
-}
-
-.content h2{
+    padding: 5px 50px;
     color: white;   
+    margin-bottom: 20px;
 }
 
-.content article{
-    color: white;
-    align-items: center;
+.content button{
+    border: 4px solid green;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 10px 5px;
 }
 
-.development-Appzion li{
-    color: white;
-
-}
-
-.our-services{
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    color: whitesmoke;
-}
-
-
-.Email-signup{
-    height: 100px;
-    max-width: 600px;
-    margin: 20px auto 60px;
+.content button{
     align-items: center;
     display: flex;
+    margin-left: 200px;
+}
+
+.content  button :hover{
+    cursor: pointer;
+    background-color: #492E87;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+/**  Image   **/
+
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    padding-left: 900px;
+}
+
+
+
+/** Services **/
+
+.services  {
+    display: flex;
+    align-items: center;
     justify-content: space-around;
-    padding: 20px 30px;
-    border: 4px solid white;
-    box-sizing: border-box;
-    border-radius: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.services h1{
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    flex-direction: column;
+}
+
+
+.services  :hover{
+    transform: scale(1.05);
+    background-color: green;
     color: white;
 
+    
+}
 
+.services-box1
+    {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 30%;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.services-box1:nth-child(1) {
+    flex: 5;
+}
+
+
+.services-box2{
+    background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 30%;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        flex-direction: row;
+        justify-content: center;
+}
+
+
+.services-box2:nth-child(1) {
+    flex: 5;
+}
+
+.services-box3{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;  
+    cursor: pointer; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.services-box3:nth-child(1) {
+    flex: 5;
+}
+
+
+.services-box1:hover {
+    transform: scale(1.05);
+}
+
+
+.services-box2:hover {
+    transform: scale(1.05);
+}
+
+.services-box3:hover{
+    transform: scale(1.05);
+}
+
+
+/** ---Projects--- **/
+
+
+
+.appzion-projects h1{
+  border: 2px solid white;
+    border-radius: 1000px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 
-.Email-signup :hover{
+
+.appzion-projects h1 :hover{
+    transform: scale(1.05);
+    background-color: green;
+    color: white;
+}
+
+
+
+
+.project-1{
     background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;  
+    cursor: pointer; 
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    
 }
 
-.Email-signup{
- box-shadow:  8px;
- cursor: pointer;
+
+.project-1:hover{
+    transform: scale(1.05);
+    background-color: green;
+    color: white;
+}
+
+.project-2{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;  
+    cursor: pointer; 
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.project-2 h1{
+    color: black;
+}
+
+.project-2:hover{
+    transform: scale(1.05);
+    background-color: green;
+    color: white;
+}
+
+
+
+.project-3{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;  
+    cursor: pointer; 
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.project-3:hover{
+    transform: scale(1.05);
+    background-color: green;
+    color: white;
+}
+
+
+/** ---Prices---**/
+
+
+.Prices-of-services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.Prices-of-services h1 :hover {
+background-color: green;
+cursor: pointer;
+border: 1px solid white;
+border-radius: 5px;
 
 }
 
-footer p{
+
+.prices-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border: 4px solid white;
+    border-radius: 5px;
+
+}
+
+
+.prices-table :hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+/** ---About---**/
+
+.about-Company{
     align-items: center;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
 }
 
 
+.about-Company h1{
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-Company p{
+    width: 2500px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1)
+
+}
+
+.about-Company p :hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.08);
+}
 
 
+.lists p{
+    width: 250px;
+    height: 100px;
+    background-color:  green;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1)
+    
+}
+
+.lists p :hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.05);
+}
+
+/** Contact . Header**/
+.contact h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;    
+    border-radius: 4px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+
+.class-footer h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500px;
+    color: white;    
+}
+
+.class-footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: solid;
+
+}
+
+
+.stakeholders-integrations{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signup-Form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 33px solid white;
+    border-radius: 35px;
+    height: 150px;
+    width: 550px;
+    margin-left: 390px;
+    margin-top: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-wrap: wrap;
+    background-color: #210949
+
+}
+
+.signup-Form :hover{
+    background-color: white;
+    color: #210949;
+
+
+}
+    
+
+
+.signup-Form input  {
+    
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 750;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+.signup-Form  button{
+    background-color: green;
+    color: black;
+    text-wrap: wrap;
+    transition: 0.5s;
+}
+
+
+.signup-Form button :hover{
+    transform: scale(0.5s);
+    background-color: black;
+    color: white;
+}
+
+.footer-again{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: double;
+    font-family: sans-serif;
+    
+    color: white;
+
+}
 
 
 
